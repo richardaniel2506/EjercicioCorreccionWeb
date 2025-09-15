@@ -16,6 +16,21 @@ body {
 }
 
 /* ===== Header Principal ===== */
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espacio entre la imagen y el texto */
+}
+
+.logo {
+    width: 50px;     /* tamaño de la imagen */
+    height: 50px;
+    border-radius: 50%; /* la hace circular */
+    object-fit: cover;  /* recorta para que no se deforme */
+}
+
+
 .site-header {
     background: lch(56.88% 86.01 308.78);
     color: white;
