@@ -132,3 +132,52 @@ footer {
     margin: 2px; 
     font-size: 0.8em; 
 }
+
+/* ===== Responsivo ===== */
+@media (max-width: 600px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    main {
+        margin-top: 80px; 
+    }
+
+    .site-header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .site-header nav li {
+        margin: 10px 0;
+    }
+
+    .header-content {
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        grid-template-columns: 1fr; 
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-header nav ul {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .site-header nav li {
+        margin: 10px 10px 0 0;
+    }
+}
