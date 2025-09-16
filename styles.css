@@ -43,7 +43,7 @@ body {
 }
 
 article, section {
-    scroll-margin-top: 120px; /* ajusta según la altura de tu header */
+    scroll-margin-top: 120px; 
 }
 
 
